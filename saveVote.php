@@ -115,8 +115,6 @@
 				
 
 
-				// $sql= "INSERT INTO db_evoting.tbl_users VALUES(null,'".$name."','".$email."','".$voterID."','".$selection."');";
-
         $sql22="select * from tbl_users where full_name='$name' and email='$email'and voter_id='$voterID'";
         if ($result22=mysqli_query($conn,$sql22)) {
 
@@ -148,12 +146,6 @@
   
               
             }
-            // if(mysqli_query($conn, $sql)){
-            //   echo "<img src='images/success.png' width='70' height='70'>";
-            //   echo "<h3 class='text-info specialHead text-center'><strong> YOU'VE  SUCCESSFULLY   VOTED.</strong></h3>";
-            //   echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
-            // }
-
           }
           else{
             echo "<img src='images/error.png' width='70' height='70'>";
@@ -164,22 +156,6 @@
  
 
       }
-
-        // $sql="update tbl_users set voted_for='$selection' where full_name='$name' and email='$email'and voter_id='$voterID'";
-					
-
-				// if(mysqli_query($conn, $sql)){
-				// 	echo "<img src='images/success.png' width='70' height='70'>";
-				// 	echo "<h3 class='text-info specialHead text-center'><strong> YOU'VE  SUCCESSFULLY   VOTED.</strong></h3>";
-				// 	echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
-				// }
-				// else
-				// {
-				// 	echo "<img src='images/error.png' width='70' height='70'>";
-				// 	echo "<h3 class='text-info specialHead text-center'><strong> SORRY! WE'VE SOME ISSUE..</strong></h3>";
-				// 	echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
-				// }
-
 				
 				?>
 
