@@ -143,7 +143,7 @@
             }
             else{
               echo "<img src='images/error.png' width='70' height='70'>";
-              echo "<h3 class='text-info specialHead text-center'><strong> SORRY! THERE IS SOME ISSUE PLEASE ENTER CORRECT CREDENTIALS OR TRY CONTACTING ADMIN OF SITE</strong></h3>";
+              echo "<h3 class='text-info specialHead text-center'><strong> SORRY! YOU HAVE ALREADY VOTED OR TRY CONTACTING ADMIN OF SITE</strong></h3>";
               echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
   
               
